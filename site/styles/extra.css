@@ -1,0 +1,27 @@
+/* styles/extra.css */
+
+/* Cambiar el color de fondo del cuerpo */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Personalizar los títulos */
+h1, h2, h3 {
+    color: #3f51b5; /* Color azul indigo */
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-type: square; /* Cambiar el estilo de la lista a cuadrado */
+    background-color: lightgray; /* Fondo gris para la lista */
+}
+
+/* Personalizar enlaces */
+a {
+    color: #2196F3; /* Color azul */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

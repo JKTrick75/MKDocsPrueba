@@ -1,0 +1,56 @@
+site_name: 'Mi Proyecto de prueba de MKDocs'
+#site_url: 'https://midominio.com'
+site_author: 'David Martínez'
+site_description: 'Documentación oficial de Mi Proyecto de prueba'
+
+theme:
+  features:
+    - content.action.edit
+    - content.action.view
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+    - content.code.copy
+  name: 'material'
+  palette:
+    primary: 'indigo'
+    accent: 'blue'
+  font:
+    text: 'Roboto'
+  google_analytics:
+    property: 'UA-12345678-9'
+    auto: true
+  favicon: "img/favicon.ico"  # Ruta a tu favicon.ico
+  logo: "img/favicon.ico"
+
+nav:
+  - Home: index.md
+  - Guía de Instalación: guias/instalacion.md
+  - Nuevo proyecto: guias/nuevo_proyecto.md
+  - Configuración: configuracion/configuracion.md
+  - Personalización: personalizacion/estilos.md
+  - Extensiones: extensiones/admonitions.md
+
+#plugins:
+#  - search
+#  - macros
+
+  
+
+extra_css:
+  - 'styles/extra.css'
+extra_javascript:
+  - 'js/custom.js'
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+
+repo_url: 'https://github.com/JKTrick75/MkDocs'
+repo_name: 'GitHub'
+edit_uri: 'edit/main/docs/'
+
+use_directory_urls: true
+strict: true
